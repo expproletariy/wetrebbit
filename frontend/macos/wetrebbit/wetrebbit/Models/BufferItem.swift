@@ -8,7 +8,7 @@
 import Foundation
 
 struct BufferItem: Identifiable {
-    let id: UUID = UUID()
-    let timestamp: Date = Date()
-    let data: String = ""
+    var id: UUID = UUID()
+    var timestamp: Date = Date()
+    var data: String = ""
 }

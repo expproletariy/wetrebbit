@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppKit
 
 struct ContentView: View {
     @StateObject var bufferManager = BufferManager()
@@ -32,5 +33,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(bufferManager: .init())
+    ContentView()
 }

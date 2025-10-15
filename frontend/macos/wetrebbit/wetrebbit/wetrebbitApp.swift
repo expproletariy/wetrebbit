@@ -10,10 +10,13 @@ import SwiftUI
 @main
 struct wetrebbitApp: App {
     var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
         MenuBarExtra {
             ContentView()
         } label: {
-            Label("wetrebbit", systemImage: "")
+            Label("wetrebbit", systemImage: "list.bullet.rectangle")
         }
         .menuBarExtraStyle(.window)
     }

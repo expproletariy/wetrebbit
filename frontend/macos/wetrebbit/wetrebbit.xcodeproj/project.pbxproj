@@ -40,11 +40,6 @@
 			path = wetrebbitTests;
 			sourceTree = "<group>";
 		};
-		D995C7712EA03C0000D51F75 /* wetrebbitUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = wetrebbitUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			children = (
 				D995C7592EA03BFF00D51F75 /* wetrebbit */,
 				D995C7672EA03C0000D51F75 /* wetrebbitTests */,
-				D995C7712EA03C0000D51F75 /* wetrebbitUITests */,
 				D995C7582EA03BFF00D51F75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				D995C7702EA03C0000D51F75 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D995C7712EA03C0000D51F75 /* wetrebbitUITests */,
 			);
 			name = wetrebbitUITests;
 			packageProductDependencies = (
